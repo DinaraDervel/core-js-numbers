@@ -573,7 +573,7 @@ function getIntegerPartNumber(number) {
  * 0.1, 0.2, 0.3 => 0.6
  */
 function getSumOfNumbers(x1, x2, x3) {
-  return Math.sumPrecise([x1, x2, x3]);
+  return (x1 * 10 + x2 * 10 + x3 * 10) / 10;
 }
 
 /**
